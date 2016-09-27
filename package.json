@@ -1,0 +1,41 @@
+{
+  "name": "TransparencyModule",
+  "version": "0.0.1",
+  "description": "Transparency Module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/facebook/flux.git"
+  },
+  "main": "js/app.js",
+  "dependencies": {
+    "flux": "*",
+    "keymirror": "*",
+    "object-assign": "*",
+    "react": "*",
+    "react-router": "*",
+    "react-select":"*",
+    "react-infinite":"*",
+    "react-search":"*",
+    "react-bootstrap-datetimepicker": "*"
+  },
+  "devDependencies": {
+    "browserify": "*",
+    "envify": "*",
+    "reactify": "*",
+    "uglify-js": "*",
+    "watchify": "*"
+  },
+  "scripts": {
+    "start": "watchify -o js/bundle.js -v -d js/app.js",
+    "build": "browserify . -t [envify --NODE_ENV production] | uglifyjs -cm > js/bundle.min.js"
+  },
+   "author": {
+    "name": "VR1 CAPS"
+  },
+  "browserify": {
+    "transform": [
+      "reactify",
+      "envify"
+    ]
+  }
+}

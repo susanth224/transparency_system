@@ -1,0 +1,65 @@
+body{margin: 1em}
+       .row{
+       padding :1em ;
+       border: 1px solid #e4e4e4;
+  
+  position: relative;
+  background-color: #fff;
+  transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+.row:hover{
+z-index: 2;
+  top: -0.3em;
+  box-shadow: 0.50em 0.50em 0.50em grey;
+  -moz-box-shadow: 0.50em 0.50em 0.50em grey;
+  -webkit-box-shadow: 0.50em 0.50em 0.50em grey;
+  -o-box-shadow: 0.50em 0.50em 0.50em grey;
+}
+.media-heading,.time{
+  margin : .25% 0 1.0% 3.5%;
+}
+.line{font-size:20px}
+
+.rowStyle{
+  
+  margin:4px 3px 3px 3px;
+}
+i.g_icon:before{
+color:green;
+}
+.gicons_up{
+  cursor:pointer;
+}
+.gicons_down{
+  cursor:pointer; 
+}
+.gicons_remove{
+  color:tomato;
+  cursor:pointer; 
+
+}
+.gicons_flag{
+  color:DimGray ;
+  cursor:pointer; 
+}
+.glyphicons-thumbs-up{
+  margin-left:50%;
+  margin-right:10px;
+}
+.glyphicons-thumbs-down{
+  margin-left:50%;
+  margin-right:10px;
+}
+.glyphicons-remove{
+  margin-left:50%;
+}
+.glyphicons-flag{
+  margin-left:50%;
+}
+#name
+{
+  color:darkblue;
+}
