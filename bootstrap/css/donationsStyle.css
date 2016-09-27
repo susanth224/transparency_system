@@ -1,0 +1,59 @@
+  .icon{
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+      height:400%;
+    }
+    .input-text{
+        color: #aaaaaa;
+        padding: 8px 52px 8px 10px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: -15px;
+        width: 90%;
+        border: 1px solid #dadada;
+        border-radius: 7px;
+    }
+    #searchbutton{
+        position: absolute;
+        top: -1px;
+        right: 0;
+        left: 89%;
+        border: 1px solid #dadada;
+    }
+    .total{
+        margin-top:2%; 
+        border: 1px solid #DDD;
+    }
+    .totalAmount{
+        text-align: center;
+    }
+    .totalAmount>.head{
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .totalAmount>.amount{
+        font-size: 15px;
+    }
+    span.price {
+        padding: 0px 20px;
+        font-family: opensansbd;
+        font-size: 24px;
+        position: absolute;
+		
+        top: 19px;
+        right: 19px;
+        display: inline-block;
+        height: 43px;
+        line-height: 43px;
+        background: #DDD none repeat scroll 0% 0%;
+    }
+    .userImage{
+        height: 40px;
+		width: 60px;
+		padding-top:5px;
+    }
+	.donationTable{
+		border:1px solid grey;
+	
+	}

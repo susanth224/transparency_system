@@ -1,0 +1,119 @@
+#bar1-main{
+  width:20px;
+}
+
+#bar2-main{
+  width:70px;
+}
+#chart{
+  position:relative;
+
+}
+#bar1{
+  width:50px;
+  position:relative;  
+  height:200px;
+}
+#bar1-text{
+  margin-left:14px;
+  font-size:15px;
+  color:black;
+}
+#bar2-text{
+  position:relative;
+  margin-left:9px;
+  font-size:15px;
+  color:black; 
+  margin-top:1px;
+  
+}
+
+#bar2{
+width:50px;
+  position:relative;
+  height:200px;
+}
+@-moz-keyframes bargrowth{
+
+   0%   {max-height: 50%;}
+  100%  {max-height: 100%;}
+
+}
+@-webkit-keyframes bargrowth{
+  0%   {max-height: 50%;}
+  100%  {max-height: 100%;}
+
+}
+@keyframes bargrowth{
+  0%   {max-height: 50%;}
+  100%  {max-height: 100%;}
+
+}
+@-moz-keyframes bar{
+
+   0%   {height: 50%;}
+  100%  {min-height: 0%;}
+
+}
+@-webkit-keyframes bar{
+  0%   {height: 50%;}
+  100%  {min-height: 0%;}
+
+}
+@keyframes bar{
+  0%   {height: 50%;}
+  100%  {min-height: 0%;}
+
+}
+
+#btn-padding{
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.BAR1{
+  -webkit-animation: bargrowth 4000ms ease;
+
+  animation: bargrowth 4000ms ease;
+    -moz-animation: bargrowth 4000ms ease;
+  position:absolute;
+  bottom:0;
+  color:white;
+  vertical-align:middle;
+  font-size:14px; 
+  display:inline-block;
+  background: #a4c53f;
+  
+}   
+.BAR2{
+  -webkit-animation: bar 1000ms ease;
+  animation: bar 1000ms ease;
+    -moz-animation: bar 1000ms ease;
+  position:absolute;
+  bottom:0;
+  color:white;
+  vertical-align:middle;
+  font-size:14px; 
+  display:inline-block;
+  background: #e57625;
+  
+}
+
+
+
+.wrapper{
+  text-align:center;
+  margin:0 auto;
+  margin-top:30px;
+ 
+  color:red;
+  font-family:Helvetica;
+  font-size:12px;
+}
+.wrapper > h1, .wrapper > p{
+  margin:0;
+}
+.media-heading{
+position:relative;
+margin: 0 0 5% 2%;
+}

@@ -1,0 +1,37 @@
+  .active .arrow--up {
+  position:relative;
+  border-top: 15px solid #FF6600;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  height: 0;
+  width: 0;
+  margin: 2px auto 0;
+    }
+
+  .arrow--down {
+    position:relative;
+    border-top: 12px solid #337AB7;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    height: 0;
+    width: 0;
+    margin: 0px auto 0;
+  }
+  .is-expanded {
+    position: relative;
+    text-decoration: none;
+  }
+
+  .is-expanded:after {
+    width: 0;
+    height: 0;
+    position: absolute;
+    content: "";
+    display: block;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 12px solid #cecece;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: 15px;
+  }
